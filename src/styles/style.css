@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  --clr-blue: #1c2042;
+  --clr-white: #dddddd;
+  --clr-black: #3333333;
+}
+html {
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--clr-white);
+  color: var(--clr-blue);
+}
+
+img {
+  width: 40%;
+  height: auto;
+}
+.title {
+  text-align: center;
+  margin: 1rem auto;
+  padding-bottom: 0.25rem;
+  text-decoration: underline;
+  color: blue;
+}
+.singletour {
+  box-sizing: border-box;
+  background-color: white;
+  width: 70%;
+  margin: 30px 200px;
+}
+.image {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.tourinfo {
+  margin-left: 20px;
+  padding: 10px 30px;
+}
+.tourprice {
+  margin-left: 700px;
+  margin-bottom: 0px;
+  position: relative;
+  bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: lightblue;
+  width: 60px;
+}
+.info {
+  margin: 0px 45px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.delete-btn {
+  width: 150px;
+  margin: 20px 400px;
+  color: red;
+}
+.readmore {
+  text-align: right;
+  margin: 1rem auto;
+  padding-bottom: 0.25rem;
+  border: none;
+  color: blue;
+}
+.readmore::hover {
+  cursor: pointer;
+}
